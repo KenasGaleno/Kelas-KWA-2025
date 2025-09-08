@@ -2,13 +2,13 @@
 
 ## 1. Pendahuluan
 Challenge *Database Schema* termasuk kategori **Injection** dengan tingkat kesulitan ⭐⭐⭐ (3/6).  
-Tujuan utama challenge ini adalah mendapatkan struktur database (*schema*) dengan memanfaatkan celah SQL Injection. Informasi ini penting karena bisa menjadi dasar untuk menyelesaikan challenge lain seperti **User Credentials** atau **Login Admin**.
+Tujuan challenge ini adalah mengekstrak struktur database (*schema*) menggunakan SQL Injection. Informasi ini penting karena menjadi dasar untuk challenge lain seperti **User Credentials** atau **Login Admin**.
 
 ## 2. Identifikasi Titik Injeksi
-Titik injeksi terdapat pada endpoint pencarian produk:GET /rest/products/search?q=<payload>
-
-Pengujian pertama dilakukan dengan memasukkan tanda `'` pada parameter `q`.  
-Hasilnya aplikasi menampilkan respon yang berbeda dari normal, menandakan input tidak divalidasi dengan baik dan terdapat potensi SQL Injection.
+Eksperimen dilakukan pada **Juice Shop** yang dijalankan secara lokal lewat **Docker** di alamat: http://127.0.0.1:3000/rest/products/search?q=
+<payload>
+Parameter `q` pada fitur pencarian produk diuji dengan tanda `'`.  
+Hasil: aplikasi menampilkan respon abnormal → indikasi adanya celah SQL Injection.
 
 <img width="975" height="348" alt="image" src="https://github.com/user-attachments/assets/05129024-d70a-466f-9697-4fde7fbba2d1" />
 
