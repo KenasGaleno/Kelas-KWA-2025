@@ -10,7 +10,8 @@ Titik injeksi terdapat pada endpoint pencarian produk:GET /rest/products/search?
 Pengujian pertama dilakukan dengan memasukkan tanda `'` pada parameter `q`.  
 Hasilnya aplikasi menampilkan respon yang berbeda dari normal, menandakan input tidak divalidasi dengan baik dan terdapat potensi SQL Injection.
 
-📌 Bukti: input `'` memunculkan error/hasil abnormal pada halaman pencarian.
+<img width="975" height="348" alt="image" src="https://github.com/user-attachments/assets/05129024-d70a-466f-9697-4fde7fbba2d1" />
+
 
 ## 3. Menentukan Jumlah Kolom
 Sebelum melakukan serangan `UNION SELECT`, jumlah kolom pada query harus sesuai dengan query asli.  
@@ -25,7 +26,8 @@ Pengujian dilakukan secara bertahap dengan payload berikut:
 
 Dari percobaan, ditemukan bahwa query membutuhkan **9 kolom** agar bisa dieksekusi tanpa error.
 
-📌 Bukti: payload dengan 9 kolom `NULL` dapat berjalan normal, sedangkan lebih sedikit menghasilkan error.
+<img width="975" height="220" alt="image" src="https://github.com/user-attachments/assets/35234bfd-f108-4df7-8b9c-45870781ceec" />
+
 
 ## 4. Payload Final
 Setelah jumlah kolom diketahui, payload disusun untuk membaca definisi tabel dari `sqlite_master`:
@@ -43,3 +45,5 @@ group_concat(sql, char(10)),
 NULL
 FROM sqlite_master WHERE sql NOT NULL-- -
 
+
+<img width="975" height="520" alt="image" src="https://github.com/user-attachments/assets/1c0b3168-58d8-435f-b8a9-d90bb14834c0" />
