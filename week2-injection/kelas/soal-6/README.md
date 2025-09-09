@@ -1,7 +1,7 @@
 # Soal 6 – Ephemeral Accountant
 
 ## 1. Pendahuluan
-Challenge *Ephemeral Accountant* termasuk kategori **Injection** dengan tingkat kesulitan ⭐⭐⭐⭐ (4/6).  
+Challenge *Ephemeral Accountant* termasuk kategori **Injection** dengan tingkat kesulitan ⭐⭐⭐⭐.  
 Tujuannya adalah melakukan login menggunakan akun `acc0unt4nt@juice-sh.op` yang sebenarnya tidak ada di database, tanpa perlu mendaftarkan user baru.  
 Istilah *ephemeral* berarti akun ini hanya muncul sementara hasil dari query injection, tidak tersimpan secara permanen.
 
