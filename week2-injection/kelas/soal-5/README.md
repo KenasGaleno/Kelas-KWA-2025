@@ -66,4 +66,5 @@ Total harga keranjang bertambah sesuai harga produk.
 <img width="975" height="544" alt="image" src="https://github.com/user-attachments/assets/319c8fa6-e2a9-4c61-be7b-9dc29c2dff90" />
 <img width="975" height="557" alt="image" src="https://github.com/user-attachments/assets/904d7868-fc94-4f5e-9c61-a2fb959f7bea" />
 
+<img width="432" height="221" alt="image" src="https://github.com/user-attachments/assets/f5d58a55-d273-43e1-9995-7a677e540326" />
 
