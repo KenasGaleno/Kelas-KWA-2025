@@ -1,7 +1,7 @@
 # Soal 1 – Login Admin
 
 ## 1. Pendahuluan
-Challenge *Login Admin* termasuk kategori **Injection** dengan tingkat kesulitan ⭐⭐ (2/6).  
+Challenge *Login Admin* termasuk kategori **Injection** dengan tingkat kesulitan ⭐⭐.  
 Tujuannya adalah melakukan login ke akun administrator (`admin@juice-sh.op`) tanpa mengetahui password sebenarnya dengan memanfaatkan celah SQL Injection.
 
 ## 2. Identifikasi Titik Injeksi
