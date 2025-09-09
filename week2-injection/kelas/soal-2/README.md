@@ -44,3 +44,6 @@ Aplikasi mengembalikan token JWT untuk user jim@juice-sh.op
 Setelah login, scoreboard menandai challenge Login Jim berhasil
 
 <img width="975" height="492" alt="image" src="https://github.com/user-attachments/assets/2a27f97b-c685-4038-99d8-f30edbc5d4a1" />
+
+<img width="540" height="276" alt="image" src="https://github.com/user-attachments/assets/0f9f2f41-1a9e-4c94-b85b-f3745f54cf99" />
+
