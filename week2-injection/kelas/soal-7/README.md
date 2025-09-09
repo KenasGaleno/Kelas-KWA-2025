@@ -1,7 +1,7 @@
 # Soal 7 – NoSQL Manipulation
 
 ## 1. Pendahuluan
-Challenge *NoSQL Manipulation* termasuk kategori **Injection** dengan tingkat kesulitan ⭐⭐⭐⭐ (4/6).  
+Challenge *NoSQL Manipulation* termasuk kategori **Injection** dengan tingkat kesulitan ⭐⭐⭐⭐.  
 Tujuannya adalah mengeksploitasi kelemahan query MongoDB untuk mengubah banyak review sekaligus dengan satu payload.
 
 ## 2. Identifikasi Titik Injeksi
