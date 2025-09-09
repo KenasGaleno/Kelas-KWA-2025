@@ -46,4 +46,6 @@ group_concat(sql, char(10)),
 '2025-09-07',
 NULL
 FROM sqlite_master WHERE sql NOT NULL-- -
+```
 
+<img width="1537" height="737" alt="image" src="https://github.com/user-attachments/assets/351630c3-92cb-485e-9244-619b3643c482" />
