@@ -1,7 +1,7 @@
 # Soal 3 – Login Bender
 
 ## 1. Pendahuluan
-Challenge *Login Bender* termasuk kategori **Injection** dengan tingkat kesulitan ⭐⭐⭐ (3/6).  
+Challenge *Login Bender* termasuk kategori **Injection** dengan tingkat kesulitan ⭐⭐⭐.  
 Tujuannya adalah melakukan login ke akun **bender@juice-sh.op** tanpa mengetahui password aslinya dengan memanfaatkan celah SQL Injection pada form login.
 
 ## 2. Identifikasi Titik Injeksi
@@ -43,3 +43,5 @@ Aplikasi mengembalikan token JWT untuk user bender@juice-sh.op
 .
 
 Setelah login, scoreboard menandai challenge Login Bender berhasil
+
+<img width="535" height="335" alt="image" src="https://github.com/user-attachments/assets/c51b973b-1968-49d5-8fef-a9d6d659ba29" />
