@@ -67,16 +67,3 @@ Total harga keranjang bertambah sesuai harga produk.
 <img width="975" height="557" alt="image" src="https://github.com/user-attachments/assets/904d7868-fc94-4f5e-9c61-a2fb959f7bea" />
 
 
-5. Analisis
-
-Celah terjadi karena input pencarian dimasukkan langsung ke query SQL tanpa validasi.
-
-Data produk yang seharusnya deleted tetap bisa diakses dan dibeli.
-
-Dampaknya: penyerang dapat menemukan item rahasia dan memanfaatkan kelemahan bisnis.
-
-6. Kesimpulan
-
-Challenge Christmas Special berhasil diselesaikan dengan teknik Union-based SQL Injection.
-Produk tersembunyi berhasil ditemukan melalui parameter pencarian dan ditambahkan ke keranjang belanja.
-
