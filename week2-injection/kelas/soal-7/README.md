@@ -29,7 +29,7 @@ Payload injeksi:
 }
 ```
 
-4. Eksploitasi
+### 4. Eksploitasi
 
 Intersep request PATCH /rest/products/reviews dengan Burp Suite.
 
