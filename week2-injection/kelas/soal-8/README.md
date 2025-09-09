@@ -1,7 +1,7 @@
 # Soal 8 – User Credentials
 
 ## 1. Pendahuluan
-Challenge *User Credentials* termasuk kategori **Injection** dengan tingkat kesulitan ⭐⭐⭐⭐ (4/6).  
+Challenge *User Credentials* termasuk kategori **Injection** dengan tingkat kesulitan ⭐⭐⭐⭐.  
 Tujuannya adalah mengeksploitasi SQL Injection pada fitur pencarian produk untuk mendapatkan daftar semua kredensial user (email dan password hash) dari database.
 
 ## 2. Identifikasi Titik Injeksi
