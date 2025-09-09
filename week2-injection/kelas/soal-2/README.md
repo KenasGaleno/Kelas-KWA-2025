@@ -1,7 +1,7 @@
 # Soal 2 – Login Jim
 
 ## 1. Pendahuluan
-Challenge *Login Jim* termasuk kategori **Injection** dengan tingkat kesulitan ⭐⭐⭐ (3/6).  
+Challenge *Login Jim* termasuk kategori **Injection** dengan tingkat kesulitan ⭐⭐⭐.  
 Tujuannya adalah melakukan login ke akun **jim@juice-sh.op** tanpa mengetahui password asli dengan memanfaatkan SQL Injection pada form login.
 
 ## 2. Identifikasi Titik Injeksi
