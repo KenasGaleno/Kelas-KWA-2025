@@ -1,7 +1,7 @@
 # Soal 4 – Database Schema
 
 ## 1. Pendahuluan
-Challenge *Database Schema* termasuk kategori **Injection** dengan tingkat kesulitan ⭐⭐⭐ (3/6).  
+Challenge *Database Schema* termasuk kategori **Injection** dengan tingkat kesulitan ⭐⭐⭐.  
 Tujuan challenge ini adalah mengekstrak struktur database (*schema*) menggunakan SQL Injection. Informasi ini penting karena menjadi dasar untuk challenge lain seperti **User Credentials** atau **Login Admin**.
 
 ## 2. Identifikasi Titik Injeksi
