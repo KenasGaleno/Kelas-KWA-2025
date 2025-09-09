@@ -1,7 +1,7 @@
 # Soal 5 – Christmas Special
 
 ## 1. Pendahuluan
-Challenge *Christmas Special* termasuk kategori **Injection** dengan tingkat kesulitan ⭐⭐⭐⭐ (4/6).  
+Challenge *Christmas Special* termasuk kategori **Injection** dengan tingkat kesulitan ⭐⭐⭐⭐.  
 Tujuannya adalah memanfaatkan celah SQL Injection pada fitur pencarian produk untuk menemukan dan menambahkan produk tersembunyi bernama **Christmas Special (2014 Edition)** ke keranjang belanja.
 
 ## 2. Identifikasi Titik Injeksi
