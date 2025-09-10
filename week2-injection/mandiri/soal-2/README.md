@@ -28,7 +28,6 @@ Metode: `POST /login` dengan parameter `username` dan `password`.
 
 ### 🔹 Step 3 – Kirim ke Repeater
 Request dipindahkan ke **Repeater** untuk diuji payload.  
-Awalnya login gagal (Internal Server Error / Invalid CSRF).
 
 <img width="1387" height="737" alt="image" src="https://github.com/user-attachments/assets/3edb36d3-d8fc-434c-b1fe-e5d784f6cab5" />
 
